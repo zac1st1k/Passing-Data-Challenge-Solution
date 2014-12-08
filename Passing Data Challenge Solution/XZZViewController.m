@@ -7,6 +7,7 @@
 //
 
 #import "XZZViewController.h"
+#import "XZZDetailViewController.h"
 
 @interface XZZViewController ()
 
@@ -22,7 +23,7 @@
 
 -(void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
 {
-    XZZViewController *nextViewController = segue.destinationViewController;
+    XZZDetailViewController *nextViewController = segue.destinationViewController;
     
     NSString *message = self.textField.text;
     
