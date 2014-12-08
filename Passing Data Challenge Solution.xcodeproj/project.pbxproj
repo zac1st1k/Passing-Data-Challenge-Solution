@@ -22,6 +22,7 @@
 		1112D3661A35616B00B97BFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1112D3451A35616A00B97BFF /* UIKit.framework */; };
 		1112D36E1A35616B00B97BFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1112D36C1A35616B00B97BFF /* InfoPlist.strings */; };
 		1112D3701A35616B00B97BFF /* Passing_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1112D36F1A35616B00B97BFF /* Passing_Data_Challenge_SolutionTests.m */; };
+		1112D37B1A35620200B97BFF /* XZZDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1112D37A1A35620200B97BFF /* XZZDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		1112D36B1A35616B00B97BFF /* Passing Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Passing Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		1112D36D1A35616B00B97BFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1112D36F1A35616B00B97BFF /* Passing_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Passing_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		1112D3791A35620200B97BFF /* XZZDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZZDetailViewController.h; sourceTree = "<group>"; };
+		1112D37A1A35620200B97BFF /* XZZDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZZDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				1112D3561A35616A00B97BFF /* Main_iPad.storyboard */,
 				1112D3591A35616A00B97BFF /* XZZViewController.h */,
 				1112D35A1A35616A00B97BFF /* XZZViewController.m */,
+				1112D3791A35620200B97BFF /* XZZDetailViewController.h */,
+				1112D37A1A35620200B97BFF /* XZZDetailViewController.m */,
 				1112D35C1A35616A00B97BFF /* Images.xcassets */,
 				1112D3481A35616A00B97BFF /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				1112D34E1A35616A00B97BFF /* main.m in Sources */,
 				1112D3521A35616A00B97BFF /* XZZAppDelegate.m in Sources */,
+				1112D37B1A35620200B97BFF /* XZZDetailViewController.m in Sources */,
 				1112D35B1A35616A00B97BFF /* XZZViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
