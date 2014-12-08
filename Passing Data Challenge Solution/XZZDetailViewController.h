@@ -11,5 +11,6 @@
 @interface XZZDetailViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UILabel *label;
+@property (strong, nonatomic) NSString *message;
 
 @end

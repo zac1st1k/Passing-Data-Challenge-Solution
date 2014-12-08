@@ -11,5 +11,5 @@
 @interface XZZViewController : UIViewController
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;
-
+@property (strong, nonatomic) NSString *message;
 @end

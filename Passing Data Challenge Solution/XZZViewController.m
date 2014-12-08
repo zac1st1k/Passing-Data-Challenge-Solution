@@ -20,6 +20,16 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
+{
+    XZZViewController *nextViewController = segue.destinationViewController;
+    
+    NSString *message = self.textField.text;
+    
+    nextViewController.message = message;
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
