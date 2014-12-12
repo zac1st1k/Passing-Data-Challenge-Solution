@@ -19,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.textField.delegate = self;
 }
 
 - (void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
@@ -36,11 +37,18 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma - XZZDetailViewControllerDelegate
+#pragma mark - XZZDetailViewControllerDelegate
 
 - (void)didUpdateText:(NSString *)text
 {
     self.textField.text = text;
+}
+
+#pragma mark - UITextFieldDelegate
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
+{
+    [self.textField resignFirstResponder];
+    return YES;
 }
 
 @end

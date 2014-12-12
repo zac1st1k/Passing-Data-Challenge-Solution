@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "XZZDetailViewController.h"
 
-@interface XZZViewController : UIViewController <XZZDetailViewControllerDelegate>
+@interface XZZViewController : UIViewController <XZZDetailViewControllerDelegate, UITextFieldDelegate>
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;
 

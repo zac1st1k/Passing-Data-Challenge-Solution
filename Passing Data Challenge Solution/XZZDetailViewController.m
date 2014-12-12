@@ -29,6 +29,7 @@
     // Do any additional setup after loading the view.
     
     self.label.text = self.message;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -47,12 +48,6 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-- (void)didUpdateText
-{
-    
-}
-
 
 - (IBAction)button2:(id)sender
 {
