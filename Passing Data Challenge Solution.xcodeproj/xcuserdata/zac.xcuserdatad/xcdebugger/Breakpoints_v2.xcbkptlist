@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Passing Data Challenge Solution/XZZViewController.m"
-            timestampString = "439707457.63255"
+            timestampString = "440068181.588165"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "@implementation XZZViewController"
-            landmarkType = "3">
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-prepareForSegue:sender:"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

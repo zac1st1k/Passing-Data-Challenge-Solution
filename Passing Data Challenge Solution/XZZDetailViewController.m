@@ -48,4 +48,17 @@
 }
 */
 
+- (void)didUpdateText
+{
+    
+}
+
+
+- (IBAction)button2:(id)sender
+{
+    self.label.text = self.textField2.text;
+    [self.delegate didUpdateText:self.textField2.text];
+
+}
+
 @end

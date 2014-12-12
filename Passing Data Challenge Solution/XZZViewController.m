@@ -21,20 +21,26 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
--(void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
+- (void) prepareForSegue:(UIStoryboardSegue*)segue sender:(id)sender
 {
     XZZDetailViewController *nextViewController = segue.destinationViewController;
-    
-    NSString *message = self.textField.text;
-    
-    nextViewController.message = message;
-    
+    nextViewController.message = self.textField.text;
+//    NSString *message = self.textField.text;
+//    nextViewController.message = message;
+    nextViewController.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma - XZZDetailViewControllerDelegate
+
+- (void)didUpdateText:(NSString *)text
+{
+    self.textField.text = text;
 }
 
 @end

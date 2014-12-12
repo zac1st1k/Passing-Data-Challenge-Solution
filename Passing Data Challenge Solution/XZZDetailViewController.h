@@ -8,9 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol XZZDetailViewControllerDelegate <NSObject>
+
+- (void) didUpdateText:(NSString *)text;
+
+@end
+
 @interface XZZDetailViewController : UIViewController
+
+@property (weak, nonatomic) id <XZZDetailViewControllerDelegate> delegate;
 
 @property (strong, nonatomic) IBOutlet UILabel *label;
 @property (strong, nonatomic) NSString *message;
+@property (strong, nonatomic) IBOutlet UITextField *textField2;
+- (IBAction)button2:(id)sender;
 
 @end
